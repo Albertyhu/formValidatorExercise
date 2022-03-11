@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>New Project</title>
+</head>
+<body>
+    <div id="container">
+        <div id="innerContainer">
+            <div id="h1Title_container">
+                <h1>Submission Form</h1>
+            </div>
+            <div id="secondInner">
+                <div id="fieldContainer">
+                    <h2 class="fieldTitle">Email</h2>
+                    <input type="email" class="field" id="email" required />
+                    <div id="email-error" class="error_field"></div>
+                </div>
+                <div id="fieldContainer">
+                    <h2 class="fieldTitle">Country</h2>
+                    <input type="text" class="field" id="country" required />
+                    <div id="country-error" class="error_field"></div>
+                </div>
+                <div id="fieldContainer">
+                    <h2 class="fieldTitle">Zipcode</h2>
+                    <input type="number" pattern ="{0,9}" class="field" id="zipcode" min = "10000" required />
+                    <div id="zip-error" class="error_field"></div>
+                </div>
+                <div id="fieldContainer">
+                    <h2 class="fieldTitle">Password</h2>
+                    <input type="text" class="field" id="password" minlength="4" required />
+                    <div id="password-error" class="error_field"></div>
+                </div>
+                <div id="fieldContainer">
+                    <h2 class="fieldTitle">Confirm your password</h2>
+                    <input type="text" class="field" id="confirmPassword" required />
+                    <div id="confirmation-error" class="error_field"></div>
+                </div>
+
+                <div id="submitButtonCont">
+                    <button id="submitButton">Submit</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

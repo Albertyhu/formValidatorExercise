@@ -1,0 +1,107 @@
+body {
+font-family: Verdana;
+font-size: 20px; 
+}
+
+#container {
+width: 100%; 
+height: 100%; 
+align-content: center; 
+background-color: #04b2ff; 
+}
+#innerContainer {
+    width: 90%;
+    height: 90%;
+    margin: auto; 
+    display: block;
+    background-color: #2269cc; 
+}
+
+#h1Title_container {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+#secondInner {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.field {
+text-align: left; 
+border: 1px solid #575757;
+border-radius: 5px; 
+height: 30px; 
+margin-top: 10px;
+margin-bottom: 10px; 
+width: 100%;
+}
+
+.error_field {
+color: #ff0000;
+height: 0px;
+font-size: 25px;
+}
+#submitButtonCont {
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 100%;
+text-align: center;
+padding-top: 30px;
+}
+
+#submitButton {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    color: #000;
+    font-family: inherit;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#submitButton:active {
+background-color: #acacac;
+}
+
+#submitButton:disabled {
+    color: #c1c1c1;
+}
+
+#email {
+}
+
+#country {
+}
+
+#zipcode {
+}
+
+#password {
+}
+
+#confirmPassword {
+}
+
+#email:invalid {
+    border: red solid 3px;
+}
+
+#country:invalid {
+    border: red solid 3px;
+}
+
+#zipcode:invalid {
+    border: red solid 3px;
+}
+
+#password:invalid {
+    border: red solid 3px;
+}
+
+#confirmPassword:invalid {
+    border: red solid 3px;
+}
